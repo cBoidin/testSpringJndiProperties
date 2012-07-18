@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<!DOCTYPE Configure PUBLIC "-//Jetty//Configure//EN" "http://www.eclipse.org/jetty/configure.dtd">
+<Configure class="org.eclipse.jetty.webapp.WebAppContext">
+    <New id="envPropertiesPath" class="org.eclipse.jetty.plus.jndi.EnvEntry">
+        <Arg>envPropertiesPath</Arg>
+        <Arg type="java.lang.String">file:///d:/Projets/Idea/testSpringJndiProperties/external/IntegrationConfig.properties</Arg>
+        <Arg type="boolean">true</Arg>
+    </New>
+</Configure>
